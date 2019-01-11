@@ -1,0 +1,22 @@
+@import 'scss/reset.scss';
+@import 'scss/module/private.scss';
+@import 'scss/module/mixins.scss';
+header {
+  @extend %padding-20;
+  @extend %flex-element;
+  img {
+    width: 100px;
+  }
+  nav{
+    ul {
+      @extend %flex-element;
+      li {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+body {
+  @extend %padding-20;
+  background: purple;
+}
