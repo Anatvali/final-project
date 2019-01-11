@@ -1,10 +1,11 @@
 @import 'scss/reset.scss';
 @import 'scss/module/private.scss';
 @import 'scss/module/mixins.scss';
+@import 'scss/module/variables.scss';
 header {
   @extend %padding-20;
   @extend %flex-element;
-  img {
+  .logo img {
     width: 100px;
   }
   nav{
@@ -12,11 +13,14 @@ header {
       @extend %flex-element;
       li {
         margin-left: 10px;
+        a {
+          color: $color01;
+        }
       }
     }
   }
 }
 body {
   @extend %padding-20;
-  background: purple;
+  background: black;
 }

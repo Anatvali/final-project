@@ -49,11 +49,13 @@ header, header nav ul {
 header, body {
   padding: 20px; }
 
-header img {
+header .logo img {
   width: 100px; }
 
 header nav ul li {
   margin-left: 10px; }
+  header nav ul li a {
+    color: #d9d5d6; }
 
 body {
-  background: purple; }
+  background: black; }
