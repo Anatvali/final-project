@@ -18,7 +18,13 @@
   "homepage": "https://github.com/Anatvali/final-project#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-bower": "0.0.14",
+    "gulp-cleancss": "^0.2.2",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
   }
 }
