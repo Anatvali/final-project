@@ -1,63 +1,70 @@
-@import '../module/mixins.scss';
-@import '../module/private.scss';
-// @import 'section-1.scss';
 
-body {
-  .footer {
-    background: black;
-     .container {
-       .row {
-         .footer-div {
-          .footer-a {
-            .footer-logo {
-              height: 169px;
+html {
+  body {
+    .footer {
+      background: black;
+       .container {
+         .row {
+           .footer-div {
+            .footer-a {
+              .footer-logo {
+                height: 90px;
+              }
             }
-          }
-          .footer-h {
-            padding-top: 260px;
-            color: white;
-            font-size: 10px;
-            text-align: left;
-          }
-          .footer-vertical-ul {
-            list-style: none;
-            text-decoration: none;
-            padding-left: 0px;
-            color: white;
-            font-size: 8px;
-          }
-          .footer-soc-ul {
-            list-style: none;
-            text-decoration: none;
-            padding-left: 0px;
-            li {
-              a {
-                img {
-                  padding: 5px;
+            .footer-p {
+              padding-top: 30px;
+              font-size: 10px;
+            }
+            .footer-h {
+              padding-top: 100px;
+              color: white;
+              font-size: 10px;
+              text-align: left;
+            }
+            .footer-vertical-ul {
+              list-style: none;
+              text-decoration: none;
+              padding-left: 0px;
+              color: white;
+              font-size: 10px;
+            }
+            .footer-soc-ul {
+              list-style: none;
+              text-decoration: none;
+              padding-left: 0px;
+              li {
+                list-style: none;
+                color: $color-02;
+                a {
+                  text-decoration: none;
+                  img {
+                    padding: 5px;
+                  }
                 }
               }
             }
-          }
-          .footer-p {
-            color: white;
-          }
-          .footer-soc-ul {
-            @extend %flex-element;
-          }
-          .email-form {
-            .footer-email-inp {
-              border-bottom: 1px solid #808080;
-              background-color: black;
-              padding: 5px;
+            .footer-p {
+              color: white;
+            }
+            .footer-soc-ul {
+              @extend %flex-element;
+            }
+            .email-form {
+              .footer-email-inp {
+                border-bottom: 1px solid #808080;
+                background-color: black;
+                padding: 5px;
+              }
             }
           }
         }
       }
-    }
-    .copyright {
-      p {
-        color: white;
+      .copyright {
+        p {
+          color: white;
+        }
       }
     }
   }
+
 }
