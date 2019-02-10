@@ -1,7 +1,0 @@
-@mixin display ($property) {
-    display:$property;
-}
-@mixin flex ($justify-content, $align-items) {
-    justify-content: $justify-content;
-    align-items: $align-items;
-}
